@@ -19,7 +19,7 @@ class PersonajeHackeado extends Personaje
     
 
 
-
+    @Override
     String getInfo()
     {
         return super.getInfo() + " Trucos: " + trucos;
