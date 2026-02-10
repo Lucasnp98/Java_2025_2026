@@ -7,34 +7,30 @@ public static void main (String args[]){
   Arma a = new Arma(0,10);
   Arma a2 = new Arma(200,10);
   Soldado s1 = new Soldado(110,"Lucas", a);
-  Soldado s2 = new Soldado(100, "Manolo", a2);
+  Soldado s2 = new Soldado(110,"Manolo", a2);
+ 
+  Arbol arbol = new Arbol(10, 2);
 
-
-  Monstruo monstruo = new Monstruo(100, "Bowser", 20);
-
-  JefeFinal jefe = new JefeFinal(55, "TFG", 40);
-
-
-//   monstruo.atacar(s1);
-
-
-  
-  
-  s1.getArma().recargar();
-  s1.atacar(jefe);
-
-  
-  jefe.atacar(s1);
-
-
-
-//   s1.atacar(s2);
-//   s2.atacar(monstruo);
+  s1.picar(arbol);
   System.out.println(s1);
-  System.out.println(s2);
-  System.out.println(monstruo);
-  System.out.println(jefe);
+  s1.picar(arbol);
+  System.out.println(s1);
+  s1.picar(arbol);
+  System.out.println(s1);
 
+  Baya baya = new Baya(10);
+  s1.picar(baya);
+  System.out.println(s1);
+
+
+  s2.picar(s1);
+  System.out.println(s1);
+
+
+
+
+
+  
 
 }
 
