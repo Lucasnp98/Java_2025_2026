@@ -11,20 +11,22 @@ public static void main (String args[]){
  
   Arbol arbol = new Arbol(10, 2);
 
-  s1.picar(arbol);
-  System.out.println(s1);
-  s1.picar(arbol);
-  System.out.println(s1);
-  s1.picar(arbol);
-  System.out.println(s1);
 
   Baya baya = new Baya(10);
-  s1.picar(baya);
-  System.out.println(s1);
 
 
   s2.picar(s1);
+
+  s1.picar(arbol);
+  //s1.picar(baya);
   System.out.println(s1);
+  s1.picar(arbol);
+  System.out.println(s1);
+  s1.picar(arbol);
+  System.out.println(s1);
+
+
+
 
 
 
