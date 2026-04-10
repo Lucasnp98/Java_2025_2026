@@ -1,15 +1,16 @@
 public class App{
     public static void main(String[] argv)
     {
-        
-        for (int i = 0; i < 5; i ++)
-        {
-           
-        HiloSimple hilo = new HiloSimple(i);
-        hilo.start();
-        
+
+
+
+        for (int i = 0; i < 5; i++){
+        HiloSimple mihilo = new HiloSimple(i);
+        mihilo.start();
         }
 
-        System.out.println("He arrancado todos los hilos!!!");
+        
+        
+      
     }
 }
