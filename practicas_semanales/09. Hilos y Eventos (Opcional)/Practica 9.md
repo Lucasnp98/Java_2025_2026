@@ -1,4 +1,28 @@
-- 1. Modificar las prácticas anteriores para pintar las figuras sobre un panel que herede de Jpanel,
-modificando el paintComponent.
-- 2. Implementar una funcionalidad para que cuando clickees en el panel, se pinte un Círculo cuyo  diametro deban ser introducido a través de un JTextfield. Su coordenada X y su coordenad Y deben coincidir con el punto donde se clickee. 
-- 3. En otro JVentana distinto, que tenga su panel con su paintcomponnt etc, añadir 1 figura (da igual cual, que esté pintada). Añadiendo un botón animación, quiero que las figuras representen una animacion (la que te de la gana). Por ejemplo: Parpadean, cambian de color, se mueven hacia abajo hasta desaparecer, comienzan un movimiento y rebotan  contra las paredes... lo que te apeteza. TIENES QUE USAR UN HILO. 
+## Ejercicios de programación gráfica en Java
+
+### 1. Dibujo sobre panel personalizado
+Modificar las prácticas anteriores para que las figuras se dibujen sobre un panel que herede de `JPanel`, sobrescribiendo el método `paintComponent`.
+
+---
+
+### 2. Interacción con el ratón y entrada de datos
+Implementar una funcionalidad que permita, al hacer clic sobre el panel, dibujar un círculo cuyo diámetro se introduzca mediante un `JTextField`.
+
+- Las coordenadas **X** e **Y** del círculo deberán coincidir con el punto donde se haya realizado el clic.
+
+---
+
+### 3. Animación en una ventana independiente
+En una ventana independiente (otro `JFrame`), que disponga de su propio panel y su correspondiente método `paintComponent`:
+
+- Añadir al menos una figura (la que se desee).
+- Incorporar un botón de **“Animación”** que, al pulsarlo, provoque algún tipo de animación sobre la figura.
+
+Ejemplos de animación:
+- Parpadeo  
+- Cambio de color  
+- Desplazamiento hasta desaparecer  
+- Rebote contra los bordes  
+
+⚠️ **Importante:**  
+Es obligatorio implementar la animación utilizando un **hilo**.
